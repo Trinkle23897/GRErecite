@@ -35,6 +35,6 @@ while(1):
         print('\033[1;31;48m-\033[0m %s'%ipt)
         if input('y/n : ')=='n':
             wrong.append(js[idx])
-            print('add to %d'%args.wrong)
+            print('add to %s'%args.wrong)
     print('writing wrong answer into %s'%args.wrong)
     open(args.wrong,'w').write(json.dumps(wrong))
