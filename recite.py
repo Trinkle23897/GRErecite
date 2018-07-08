@@ -33,7 +33,7 @@ while(1):
 #           print('\033[1;31;48mDamn!\033[0m')
         print('\033[1;32;48m+\033[0m %s'%chn)
         print('\033[1;31;48m-\033[0m %s'%ipt)
-        if input('y/n : ')=='n':
+        if input('y/[n] : ')!='y':
             wrong.append(js[idx])
             print('add to %s'%args.wrong)
     print('writing wrong answer into %s'%args.wrong)
