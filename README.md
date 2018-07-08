@@ -22,3 +22,9 @@ optional arguments:
 ```
 ./recite.py -a 1500 -b 1600 -f all.json -o 16.txt
 ```
+
+然后接着复习这些错的单词：
+
+```
+./recite.py -f 16.txt
+```
