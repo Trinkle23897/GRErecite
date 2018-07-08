@@ -14,8 +14,10 @@ elif args.b:
 elif args.a:
     js=js[args.a:]
 num=len(js)
+wrong=js
 print('type exit to quit')
 while(1):
+    js=wrong
     wrong=[]
     random.shuffle(js)
     for idx in range(len(js)):
